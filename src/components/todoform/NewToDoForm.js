@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-import Card from './ui/Card';
+import Card from '../ui/Card';
 import classes from './NewToDoForm.module.css';
 
 function NewToDoForm(props) {
@@ -16,8 +16,8 @@ function NewToDoForm(props) {
     const enteredDescription = descriptionInputRef.current.value;
 
     const meetupData = {
-        title: enteredTitle,
-        description: enteredDescription,
+      title: enteredTitle,
+      description: enteredDescription,
     };
 
     props.onAddMeetup(meetupData);
