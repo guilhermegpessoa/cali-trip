@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import activities from './components/constants/activities';
-// import expenses from './components/constants/expenses';
+import expenses from './components/constants/expenses';
 
-import 'react-calendar/dist/Calendar.css';
+import './App.css';
 import ToDoList from './components/todo/ToDoList';
-// import ExpensesList from './components/expenses/ExpensesList';
+import ExpensesList from './components/expenses/ExpensesList';
+import ToggleVisibility from './components/expenses/ToggleVisibility';
 
 function App() {
   const [value, onChange] = useState(new Date());
@@ -25,7 +26,9 @@ function App() {
         activeStartDate={startDate}
       />
       <ToDoList selectedDay={value} activities={activities} />
-      {/* <ExpensesList expenses={expenses} /> */}
+      <ToggleVisibility>
+        <ExpensesList expenses={expenses} />
+      </ToggleVisibility>
     </div>
   );
 }

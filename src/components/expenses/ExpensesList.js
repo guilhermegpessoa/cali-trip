@@ -23,12 +23,10 @@ function ExpensesList(props) {
               expenses={expense.expenses}
             />
           ))}
-          <Expenses
-            key="total"
-            id="tota"
-            title="Total"
-            expenses={totalExpenses}
-          />
+          <tr>
+            <td className={classes.total}>Total</td>
+            <td className={classes.total}>${totalExpenses}</td>
+          </tr>
         </tbody>
       </table>
     </div>

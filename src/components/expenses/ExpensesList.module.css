@@ -1,19 +1,22 @@
 .expensetable {
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.total {
+  border-top: 1px solid #ff6961;
+}
+
 table {
-  border: 2px solid black;
+  border: 2px solid #ff6961;
   width: 350px;
   height: 200px;
 }
 
 th {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ff6961;
 }
 
 td {
