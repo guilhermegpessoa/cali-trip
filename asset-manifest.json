@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cali-trip/static/css/main.b58e1a6a.css",
-    "main.js": "/cali-trip/static/js/main.1a6b3052.js",
+    "main.js": "/cali-trip/static/js/main.8ca20472.js",
     "static/js/787.b7fa223d.chunk.js": "/cali-trip/static/js/787.b7fa223d.chunk.js",
     "index.html": "/cali-trip/index.html",
     "main.b58e1a6a.css.map": "/cali-trip/static/css/main.b58e1a6a.css.map",
-    "main.1a6b3052.js.map": "/cali-trip/static/js/main.1a6b3052.js.map",
+    "main.8ca20472.js.map": "/cali-trip/static/js/main.8ca20472.js.map",
     "787.b7fa223d.chunk.js.map": "/cali-trip/static/js/787.b7fa223d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b58e1a6a.css",
-    "static/js/main.1a6b3052.js"
+    "static/js/main.8ca20472.js"
   ]
 }
