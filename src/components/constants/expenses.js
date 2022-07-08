@@ -36,6 +36,11 @@ const expenses = [
   },
   {
     id: '8',
+    title: 'Passeios California',
+    expenses: 150,
+  },
+  {
+    id: '9',
     title: 'Hotel Las Vegas',
     expenses: 77,
   },

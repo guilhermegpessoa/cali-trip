@@ -53,6 +53,13 @@ const day19 = [
     description: '10min da Walk of Fame. Ir no Hollywood Sign.',
     eventDate: new Date(2022, 9, 19),
   },
+  {
+    id: 'day19-9',
+    title: 'Retorno ao hotel',
+    description: '15min do Griffith Park',
+    address: "12933 Ventura Boulevard, Studio City, Los Angeles, CA",
+    eventDate: new Date(2022, 9, 19),
+  },
 ];
 
 export default day19;

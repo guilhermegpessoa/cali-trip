@@ -31,28 +31,6 @@ function ExpensesList(props) {
       </table>
     </div>
   );
-
-  // return (
-  //   <>
-  //     <h2>Gastos</h2>
-  //     <ul>
-  //       {props.expenses.map((expense) => (
-  //         <Expenses
-  //           key={expense.id}
-  //           id={expense.id}
-  //           title={expense.title}
-  //           expenses={expense.expenses}
-  //         />
-  //       ))}
-  //       <Expenses
-  //         key="total"
-  //         id="tota"
-  //         title="Total"
-  //         expenses={totalExpenses}
-  //       />
-  //     </ul>
-  //   </>
-  // );
 }
 
 export default ExpensesList;
