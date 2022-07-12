@@ -37,12 +37,17 @@ const expenses = [
   {
     id: '8',
     title: 'Passeios California',
-    expenses: 150,
+    expenses: 80,
   },
   {
     id: '9',
     title: 'Hotel Las Vegas',
     expenses: 77,
+  },
+  {
+    id: '10',
+    title: 'Go City Las Vegas',
+    expenses: 400,
   },
 ];
 

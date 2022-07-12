@@ -45,6 +45,7 @@ h2 {
 }
 
 .card {
+  border: 1px solid #ff6961;
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
