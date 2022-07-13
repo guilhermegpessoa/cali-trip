@@ -4,7 +4,7 @@ const day24 = [
     title: 'Las Vegas Sign',
     description: '12 minutos do hotel ($15 de Uber). Placa de Welcome to Las Vegas no início da Strip.',
     links: 'https://ideiasnamala.com/que-fazer-las-vegas/#welcome',
-    expenses: '15',
+    expenses: '$15 de uber',
     eventDate: new Date(2022, 9, 24),
   },
   {
@@ -65,6 +65,13 @@ const day24 = [
     id: 'day24-11',
     title: 'Bellagio',
     description: '10 minutos andando (ou Tram). Ver o show das fontes dançantes, o jardim de inverno e o teto colorido decorado com flores de vidro do artista Dale Chihuly, visitar a galeria de arte do Bellagio.',
+    eventDate: new Date(2022, 9, 24),
+  },
+  {
+    id: 'day24-12',
+    title: 'Retorno ao hotel',
+    description: 'Retorno do Bellagio para o hotel.',
+    expenses: '$12 de uber',
     eventDate: new Date(2022, 9, 24),
   },
 ];
