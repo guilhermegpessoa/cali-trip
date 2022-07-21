@@ -49,6 +49,11 @@ const expenses = [
     title: 'Go City Las Vegas',
     expenses: 400,
   },
+  {
+    id: '11',
+    title: 'Las Vegas - Uber',
+    expenses: 180,
+  },
 ];
 
 export default expenses;
