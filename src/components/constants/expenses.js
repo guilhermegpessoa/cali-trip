@@ -46,11 +46,6 @@ const expenses = [
   },
   {
     id: '10',
-    title: 'Go City Las Vegas',
-    expenses: 400,
-  },
-  {
-    id: '11',
     title: 'Las Vegas - Uber',
     expenses: 180,
   },
